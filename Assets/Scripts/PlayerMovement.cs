@@ -46,17 +46,18 @@ public class PlayerMovement : MonoBehaviour
         // Rotacion vertical (camara)
         var rotationAngle = -rotation.x * RotationSpeed * Time.deltaTime;
 
-        /*Vector3 desiredRotation = new Vector3(
-            transform.rotation.x + rotationAngle,
+        /*var desiredRotationQuat = Quaternion.Euler(transform.rotation.x + rotationAngle,
             0f,
-            0f
-        );
+            0f);
+        
+
+        Vector3 desiredRotation = desiredRotationQuat.eulerAngles;
         desiredRotation.x = desiredRotation.x > 180f 
             ? desiredRotation.x - 360f
             : desiredRotation.x ;
 
         desiredRotation.x = Mathf.Clamp(desiredRotation.x, -20f, 20f);
-        myCamera.rotation = Quaternion.Euler(desiredRotation); */
+        /*myCamera.rotation = Quaternion.Euler(desiredRotation); */
         myCamera.Rotate(
             rotationAngle, //TODO: Clamp
             0f,
