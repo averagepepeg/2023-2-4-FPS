@@ -24,13 +24,14 @@ public class PlayerFire : MonoBehaviour
             10f
         )){
             // Choco con algo
-            GameObject temp = Resources.Load<GameObject>("TestFire");
+            Quaternion lookAt = Quaternion.LookRotation(hit.normal);
+            GameObject temp = Resources.Load<GameObject>("BulletCollision");
             var obj = Instantiate(
                 temp, 
                 hit.point, 
-                Quaternion.identity);
+                lookAt);
             
-            Destroy(obj, 3f);
+            Destroy(obj, 2f);
             
         }
 

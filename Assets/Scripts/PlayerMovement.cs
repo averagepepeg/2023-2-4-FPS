@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         );
 
         // Rotacion vertical (camara)
-        var rotationAngle = rotation.x * RotationSpeed * Time.deltaTime;
+        var rotationAngle = -rotation.x * RotationSpeed * Time.deltaTime;
 
         /*Vector3 desiredRotation = new Vector3(
             transform.rotation.x + rotationAngle,
