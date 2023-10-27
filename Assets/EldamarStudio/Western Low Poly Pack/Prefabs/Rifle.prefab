@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 960464790153205093}
   - component: {fileID: 5191621147256468548}
   - component: {fileID: 180726988279655655}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarrelRing.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132566247009428615}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.39196482, y: -0.5885266, z: 0.39196482, w: 0.58852655}
   m_LocalPosition: {x: -0.13367005, y: 0.1799758, z: -0.00020712764}
   m_LocalScale: {x: 17.686882, y: 17.686882, z: 424.2857}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &960464790153205093
 MeshFilter:
@@ -92,9 +92,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132566247009428615}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8885074345743209387, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -109,7 +117,7 @@ GameObject:
   - component: {fileID: 7800928674407291805}
   - component: {fileID: 1760492045270582293}
   - component: {fileID: 3210778428399542708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,13 +131,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358092385420832939}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 0.3099187, y: 0.16060583, z: 0}
   m_LocalScale: {x: 100, y: 32.4444, z: 152.69496}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1760492045270582293
 MeshFilter:
@@ -194,7 +202,7 @@ GameObject:
   - component: {fileID: 8325401879903643688}
   - component: {fileID: 3786476249250386532}
   - component: {fileID: 2317174210067983944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarrelRing.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,13 +216,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321111969460899214}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.39196488, y: -0.58852655, z: 0.39196488, w: 0.5885266}
   m_LocalPosition: {x: -0.23157507, y: 0.1805053, z: -0.00020712764}
   m_LocalScale: {x: 16.917192, y: 16.917192, z: 405.82184}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8325401879903643688
 MeshFilter:
@@ -274,9 +282,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321111969460899214}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7230024418343441327, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -292,7 +308,7 @@ GameObject:
   - component: {fileID: 3281328058873566788}
   - component: {fileID: 7473085852354856853}
   - component: {fileID: 8174772072410446234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AimBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,13 +322,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493839911985566801}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 0.23548904, y: 0.16294178, z: 0}
   m_LocalScale: {x: 100, y: 32.4444, z: 152.69496}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3281328058873566788
 MeshFilter:
@@ -372,9 +388,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493839911985566801}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2181546768065540843, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -390,7 +414,7 @@ GameObject:
   - component: {fileID: 6061295466539474077}
   - component: {fileID: 4405006257240223187}
   - component: {fileID: 2878020760813383361}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarrelRing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,13 +428,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2594611426951505837}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.3919649, y: -0.5885266, z: 0.39196485, w: 0.58852655}
   m_LocalPosition: {x: 0.050052676, y: 0.18936375, z: -0.00020712764}
   m_LocalScale: {x: 7.736053, y: 7.736053, z: 185.57806}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6061295466539474077
 MeshFilter:
@@ -470,9 +494,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2594611426951505837}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3670485305494467299, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -488,7 +520,7 @@ GameObject:
   - component: {fileID: 3540054957017961433}
   - component: {fileID: 8464071461514179556}
   - component: {fileID: 4947883986497372102}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,13 +534,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3309423675174271927}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.6258346, y: 0.32913652, z: 0.32913685, w: 0.62583476}
   m_LocalPosition: {x: 0.12760915, y: 0.16033225, z: -3.675631e-11}
   m_LocalScale: {x: 3.1644053, y: 8.769608, z: 8.7696085}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3540054957017961433
 MeshFilter:
@@ -568,9 +600,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3309423675174271927}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8653722315008560443, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -586,7 +626,7 @@ GameObject:
   - component: {fileID: 7437749847503026637}
   - component: {fileID: 3962852779748544847}
   - component: {fileID: 6427052255520092857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ReloadTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,13 +640,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4789739493297339392}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.109323956, y: 0.15556787, z: -6.7689576e-10}
   m_LocalScale: {x: 6.402891, y: 4.0181437, z: 4.9842997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7437749847503026637
 MeshFilter:
@@ -666,9 +706,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4789739493297339392}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7684068524247356722, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -684,7 +732,7 @@ GameObject:
   - component: {fileID: 2664778725007228941}
   - component: {fileID: 2863740060560899998}
   - component: {fileID: 6579089138324494892}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarrelRing.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,13 +746,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5249371927878279591}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.39196482, y: -0.5885266, z: 0.39196482, w: 0.58852655}
   m_LocalPosition: {x: -0.0426624, y: 0.17935963, z: -0.00020712764}
   m_LocalScale: {x: 18.742702, y: 18.742702, z: 449.61343}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2664778725007228941
 MeshFilter:
@@ -764,9 +812,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5249371927878279591}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -130143810661981391, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -782,7 +838,7 @@ GameObject:
   - component: {fileID: 3324436694672576346}
   - component: {fileID: 4048766745155617324}
   - component: {fileID: 1422588332225494346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Aim2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,13 +852,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5647376560554566031}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.039616957, y: 0.19618516, z: -0.000000001610899}
   m_LocalScale: {x: 14.493315, y: 14.885235, z: 16.764545}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3324436694672576346
 MeshFilter:
@@ -862,9 +918,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5647376560554566031}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8094779442794585976, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -880,7 +944,7 @@ GameObject:
   - component: {fileID: 9007761809744881886}
   - component: {fileID: 4838915338484300724}
   - component: {fileID: 4262702496520849973}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Aim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,13 +958,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5955500402435844575}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.30008835, y: 0.19579935, z: -0.000009878528}
   m_LocalScale: {x: 1.2302095, y: 1.7142762, z: 4.858271}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9007761809744881886
 MeshFilter:
@@ -960,9 +1024,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5955500402435844575}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 266003237974574875, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -978,7 +1050,7 @@ GameObject:
   - component: {fileID: 6377304003375168713}
   - component: {fileID: 2410067180012431798}
   - component: {fileID: 3816604468291532403}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,13 +1064,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6085074092681470210}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.3919649, y: -0.5885266, z: 0.39196485, w: 0.58852655}
   m_LocalPosition: {x: -0.20184822, y: 0.17549655, z: -0.00020712764}
   m_LocalScale: {x: 7.469237, y: 7.469237, z: 35.242485}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6377304003375168713
 MeshFilter:
@@ -1058,9 +1130,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6085074092681470210}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5445648637363406282, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -1076,7 +1156,7 @@ GameObject:
   - component: {fileID: 4594614099595599259}
   - component: {fileID: 8157271886917203468}
   - component: {fileID: 2281276819611332696}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TriggerTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,13 +1170,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8731199515034243858}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.50981796, y: 0.48998526, z: 0.4899853, w: 0.50981814}
   m_LocalPosition: {x: 0.1485033, y: 0.16708738, z: 0.000091311565}
   m_LocalScale: {x: 2.596308, y: 2.5963075, z: 2.596308}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4594614099595599259
 MeshFilter:
@@ -1156,9 +1236,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8731199515034243858}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6943305084611550902, guid: 014eef15972cc934d8606f9502a916dd, type: 3}
@@ -1171,7 +1259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8195390888614016794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,6 +1273,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8858633497233845664}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1204,7 +1293,6 @@ Transform:
   - {fileID: 7583576067854301711}
   - {fileID: 4790646607917394349}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8962322340525811370
 GameObject:
@@ -1218,7 +1306,7 @@ GameObject:
   - component: {fileID: 554082163849565882}
   - component: {fileID: 81839086601140540}
   - component: {fileID: 668610283503442713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrel1.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1232,13 +1320,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8962322340525811370}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.3919649, y: -0.5885266, z: 0.39196485, w: 0.58852655}
   m_LocalPosition: {x: 0.101152636, y: 0.18936375, z: -0.00020712764}
   m_LocalScale: {x: 7.469237, y: 7.469237, z: 214.95222}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8195390888614016794}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &554082163849565882
 MeshFilter:
@@ -1298,9 +1386,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8962322340525811370}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1876422382677159184, guid: 014eef15972cc934d8606f9502a916dd, type: 3}

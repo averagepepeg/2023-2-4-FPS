@@ -33,7 +33,8 @@ public class AttackState : State
     public override void OnStart()
     {
         Debug.Log("Estado Attack: Start");
-        controller.rb.velocity = Vector3.zero;
+        //controller.rb.velocity = Vector3.zero;
+        controller.agent.isStopped = true;
     }
 
     public override void OnUpdate()

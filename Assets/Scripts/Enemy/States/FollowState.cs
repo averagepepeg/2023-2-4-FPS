@@ -53,6 +53,13 @@ public class FollowState : State
     public override void OnStart()
     {
         Debug.Log("Estado Follow: Start");
+        controller.agent.isStopped = false;
+        controller.agent.velocity = new Vector3(
+            controller.Speed, 
+            0f, 
+            controller.Speed
+        );
+        
     }
 
     public override void OnUpdate()
@@ -67,12 +74,14 @@ public class FollowState : State
                 0.1f
             );
         // 2. Mover al enemigo
-        var normalizedDir = dir.normalized;
+        
+        controller.agent.destination = controller.Player.position;
+        /*var normalizedDir = dir.normalized;
         controller.rb.velocity = new Vector3(
             normalizedDir.x * controller.Speed,
             controller.rb.velocity.y,
             normalizedDir.z * controller.Speed
-        );
+        );*/
     }
     public override void OnFinish()
     {

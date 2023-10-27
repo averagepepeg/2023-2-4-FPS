@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
@@ -23,6 +24,7 @@ public class EnemyController : MonoBehaviour
     #region Readonly Properties
     public Rigidbody rb {private set; get;}
     public Animator animator {private set; get;}
+    public NavMeshAgent agent {private set; get;}
     #endregion
 
     
@@ -34,6 +36,7 @@ public class EnemyController : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
 
         // Seteamos el estado inicial
         currentState = IdleState;    
